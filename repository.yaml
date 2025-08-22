@@ -20,4 +20,4 @@ addons:
     init: false
     ports:
       8123/tcp: 8123
-    webui: "http://[HOST]:[PORT]:8123"
+    webui: "http://[HOST]:[PORT:8123]"
