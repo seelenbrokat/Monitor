@@ -5,7 +5,7 @@ description: "Sammlung von Home Assistant Addons"
 version: "1.0.0"
 addons:
   - name: "Zustellmonitor"
-    version: "1.0.0"
+    version: "1.0.1"
     slug: "zustellmonitor"
     description: "Überwachung von Sendungen und deren Zustellstatus über die CarLo WebAPI"
     url: "https://github.com/seelenbrokat/Monitor"
@@ -21,3 +21,4 @@ addons:
     ports:
       8123/tcp: 8123
     webui: "http://[HOST]:[PORT:8123]"
+
