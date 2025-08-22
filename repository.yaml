@@ -2,7 +2,7 @@ name: "Seelenbrokat Addons"
 url: "https://github.com/seelenbrokat/Monitor"
 maintainer: "Seelenbrokat"
 description: "Sammlung von Home Assistant Addons"
-version: "1.0.0"
+version: "1.0.1"
 addons:
   - name: "Zustellmonitor"
     version: "1.0.1"
@@ -21,4 +21,5 @@ addons:
     ports:
       8123/tcp: 8123
     webui: "http://[HOST]:[PORT:8123]"
+
 
