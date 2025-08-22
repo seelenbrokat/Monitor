@@ -1,0 +1,31 @@
+name: "Zustellmonitor"
+version: "1.0.0"
+slug: "zustellmonitor"
+description: "Überwachung von Sendungen und deren Zustellstatus"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+init: false
+ports:
+  8124/tcp: 8124
+webui: "http://[HOST]:[PORT:8124]"
+options:
+  host: "wogdb"
+  port: 4711
+  username: "DEIN_BENUTZERNAME"
+  password: "DEIN_PASSWORT"
+  organization_number: "1"
+  api_key: "DEIN_API_SCHLÜSSEL"
+  update_interval: 10
+schema:
+  host: str
+  port: int
+  username: str
+  password: str
+  organization_number: str
+  api_key: str
+  update_interval: int
