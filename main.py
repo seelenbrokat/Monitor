@@ -169,7 +169,8 @@ def initialize_app():
         "update_interval": int(os.getenv("update_interval", 10))
     }
     
-    api = CarLoAPI(**config)
+    api_config = {k: v for k, v in config.items() if k != "update_interval"}
+    api = CarLoAPI(**api_config)
     monitor = DeliveryMonitor(api, config["update_interval"])
     
     logger.info("Zustellmonitor initialisiert")

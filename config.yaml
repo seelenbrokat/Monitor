@@ -16,10 +16,10 @@ webui: "http://[HOST]:[PORT]:8123"
 options:
   host: "wogdb"
   port: 4711
-  username: "MABU"
-  password: "detimk23"
+  username: "DEIN_BENUTZERNAME"
+  password: "DEIN_PASSWORT"
   organization_number: "1"
-  api_key: "KJEETC2J[5Bad5!70F9T"
+  api_key: "DEIN_API_SCHLÜSSEL"
   update_interval: 10
 schema:
   host: str
